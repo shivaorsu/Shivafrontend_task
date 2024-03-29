@@ -39,7 +39,7 @@ const Crypto = () => {
                 }
 
                 return (
-                  <div key={currency} style={{ width: "250px", margin: "10px", textAlign: "center", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)", transition: "0.3s", borderRadius: "5px" }}>
+                  <div key={currency} style={{ flex: "0 0 calc(33.33% - 20px)", margin: "10px", textAlign: "center", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)", transition: "0.3s", borderRadius: "5px" }}>
                     <div style={{ padding: "20px" }}>
                       <h5 style={{ marginBottom: "10px" }}>{cryptoData.bpi[currency].description}</h5>
                       <p style={{ fontSize: "24px", fontWeight: "bold" }}>{symbol} {cryptoData.bpi[currency].rate}</p>

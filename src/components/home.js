@@ -7,47 +7,50 @@ import Wallet from "./wallet";
 const Home = () => {
     return (
         <Fragment>
-            
+
             <div id="main-wrapper">
-           
-               
+
+
                 <div className="page-wrapper">
-                <Header/>
-                   
+                    <Header />
+
                     <div className="container-fluid">
-                   
+                    <h3 className="text-themecolor">Dashboard</h3>
+                        <Crypto />
                         <div className="row page-titles">
                             <div className="col-md-5 align-self-center">
-                                <h3 className="text-themecolor">Dashboard</h3>
+                                {/* <h3 className="text-themecolor">US Population</h3> */}
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item">
-                                        <a href="javascript:void(0)">Home</a>
+                                        {/* <a href="javascript:void(0)">Home</a> */}
                                     </li>
-                                    <li className="breadcrumb-item active">Dashboard</li>
+                                    {/* <li className="breadcrumb-item active">Dashboard</li> */}
                                 </ol>
                             </div>
-                           
+
                         </div>
 
+
                         <Graphic />
-                        
-                        <div className="row" >
-                            {/* Column */}
+
+
+
+
+                        {/* <div className="row" >
+                            
                             <div className="col-lg-8">
                                 <div className="card">
                                     <div className="card-body">
-                                        <Crypto />
 
 
 
                                     </div>
                                 </div>
                             </div>
-                            {/* Column */}
-                            {/* Column */}
+                            
 
-                        </div>
-                      
+                        </div> */}
+
                         <div className="row">
                             {/* Start Notification */}
                             <div className="col-lg-6 col-md-12">
@@ -55,9 +58,9 @@ const Home = () => {
                                     <h5 className="card-title">Wallet</h5>
                                     <div
                                         className="message-center ps ps--theme_default ps--active-y"
-                                        
+
                                     >
-                                        <Wallet/>
+                                        <Wallet />
                                     </div>
                                 </div>
                             </div>
@@ -134,13 +137,13 @@ const Home = () => {
                             </div>
                             {/* End Feeds */}
                         </div>
-                     
+
                     </div>
-               
+
                     <footer className="footer"> © 2018 Adminwrap by wrappixel.com </footer>
-                 
+
                 </div>
-               
+
             </div>
 
 

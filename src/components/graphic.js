@@ -82,7 +82,7 @@ const Graphic = () => {
         <div className="col-lg-12">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Population Chart</h5>
+              <h5 className="card-title">US Population Chart</h5>
               <div style={{ position: "relative", height: "400px", width: "100%" }}>
                 <canvas id="population-chart" />
               </div>
